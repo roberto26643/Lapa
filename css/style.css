@@ -1,0 +1,66 @@
+.mainbox{
+    background-color:white;
+    width: 2000px;
+    margin: 0px auto;
+}
+.menu{
+    background-color: white;
+}
+.leftside{
+    background-color:rebeccapurple;
+    width: 300px;
+    float: left;
+}
+
+.main{
+    background-color: rebeccapurple;
+    width: 600px;
+    float: left;
+}
+
+.rightside{
+    background-color: rebeccapurple;
+    width: 100px;
+    float: left;
+    height: 50px;
+}
+
+.footer{
+    background-color: rebeccapurple;
+    height: 500px;
+}
+
+.menu{
+    height: 50px;
+    text-align: center;
+}
+
+.menu>ul>li{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    background-color:rebeccapurple;
+    position: relative;
+    top: 16px;
+    font-family: Tahoma, Serif;
+    font-size: 15px;
+
+}
+
+.menu>li>a{
+    text-decoration-color: white;
+    color: #fff;
+}
+
+
+.gallery{
+    max-width: 180px;
+}
+
+.mgallery{
+    text-align: center;
+}
+
+
+@media (min-width: 1000px) {
+
+}
